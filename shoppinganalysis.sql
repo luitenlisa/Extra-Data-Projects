@@ -1,4 +1,9 @@
-##Exploring the data/Checking for duplicates, typos, and outliers
+#Using "Consumer Behavior and Shopping Habits Dataset" from Kaggle (https://www.kaggle.com/datasets/zeesolver/consumer-behavior-and-shopping-habits-dataset/code)
+#Analyzing data with the goal of identifying relationships between purchases and consumer demographics, seasons, subscriber status, etc to identify best possible areas for marketing
+
+
+
+#Exploring the data/Checking for duplicates, typos, and outliers
 SELECT MIN(age),MAX(age),AVG(age)
 FROM shopping_behavior;
 
@@ -13,17 +18,17 @@ SELECT id, COUNT(*)
 FROM shopping_behavior
 GROUP BY ID
 HAVING COUNT(*) > 1;
-##0 results
+#0 results
 
 SELECT DISTINCT(LOCATION), COUNT(*) AS AMOUNT
 FROM shopping_behavior
 GROUP BY LOCATION
 ORDER BY AMOUNT DESC;
-##top three states with entries Montana(96), California(95), Idaho(93)
+#top three states with entries Montana(96), California(95), Idaho(93)
 
 
 
-##shopping trend differences between genders
+#shopping trend differences between genders
  
 SELECT gender, total
 FROM 
@@ -33,7 +38,7 @@ FROM
 GROUP BY gender;
 #2652 male and 1248 female entries, 3900 total
 
-##Overall category breakdown
+#Overall category breakdown
 SELECT category, total, total/3900 * 100 AS percentage
 FROM 
 	(SELECT category,COUNT(*) as total
