@@ -1,3 +1,5 @@
+					#Shopping Behavior Analysis
+						
 #Using "Consumer Behavior and Shopping Habits Dataset" from Kaggle (https://www.kaggle.com/datasets/zeesolver/consumer-behavior-and-shopping-habits-dataset/code)
 #Analyzing data with the goal of identifying relationships between purchases and consumer demographics, seasons, subscriber status, etc to identify best possible areas for marketing
 
@@ -207,25 +209,36 @@ FROM shopping_behavior
 WHERE Season = "Winter"
 GROUP BY item_purchased
 ORDER BY COUNT(*) DESC;
+#Most popular items: Sunglasses, Pants, Shirt
 
 SELECT item_purchased, Count(*)
 FROM shopping_behavior
 WHERE Season = "Spring"
 GROUP BY item_purchased
 ORDER BY COUNT(*) DESC;
+#Most popular items: Sweater, Shorts, Blouse
 
 SELECT item_purchased, Count(*)
 FROM shopping_behavior
 WHERE Season = "Summer"
 GROUP BY item_purchased
 ORDER BY COUNT(*) DESC;
+#Pants, Dress, Jewelry
 
 SELECT item_purchased, Count(*)
 FROM shopping_behavior
 WHERE Season = "Fall"
 GROUP BY item_purchased
 ORDER BY COUNT(*) DESC;
+#Jacket, Hat, Handbag
 
+
+#The overall findings were that there was not a significant difference in terms of category preference between genders.
+#The age demographic varied a bit, with the 18-31 age group tending to spend a bit more than other groups but the 46-59 group being most likely to be a subscriber.
+#California held the highest amount of repeat customers from this sampling, along with a fairly high rating. This would indicate a good place to sell and promote, clothing specifically (as it is the highest)
+
+#The area with the least amount of current shoppers/subscribers is the 61+ group. The other three groups were fairly close in sample size, indicating their purchasing population is about the same.
+#This indicates that the first 3 age groups are more likely to purchase but may be more saturated. The 61+ group has a higher potential for growth, but is riskier since there is less data here on their purchasing history. 
 
 
 
