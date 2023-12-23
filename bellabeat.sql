@@ -315,5 +315,16 @@ GROUP BY dayofweek
 ORDER BY amount desc; 
 
 
+#The overall results showed that participants were most likely to hit their sleep goal on Sundays and Wednesdays. They were most likely to hit their step goal on Sundays
+#Users of Bellabeat could use reminders during the days they were least likely to hit their goals to prompt them to use their device more
+#Participants were least likely to wear their watches to bed in the middle of the week. Perhaps Bellabeat could implement a reminder on the watch to wear the watch before bed on those days
+#It was also shown that majority of the participants (29/33) did not manually log their distance. This could be a potential talking point, showing that you can still gather data about your health without having to remember to do anything. A hands-off approach.
+#There was a positive correlation between steps and calories burned. For people looking to increase their calorie expenditure, the watch could prove to be a good motivator by tracking their steps
+
+#To improve further studies, I would seek data that specifically had data about how women use their fitness devices since this data set did not distinguish sex or gender identity 
+#Bellabeat markets their products to women so collecting women-centered data would be more nuanced for this specifically.
+#There was also no location information, body height information, or other more specific variations that could be important for determining different trends.
+#Also, sedentary activity was not specifically classified if it was inclusive of sleep minutes or exclusive of it. This would be important for separating sedentary time (like sitting and lounging) vs sleeping as this affects activity data.
+
 
 
