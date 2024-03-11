@@ -1,5 +1,5 @@
 <h1> These are practice sets that I have completed. </h1>
-<h2> You fill find the code I used, and the results, above in each of the files. </h2>
+<h2> You fill find the code I used, the results of my findings, along with links to visualizations and citations in this repository.</h2>
 <h3> Bellabeat Case Study</h3>
 <body> This case study analyzed data from the Fitbit fitness watch to find trends in user data. Using this information, inferences were made about how users use fitness devices and how that might translate to Bellabeat</body>
 <br>
