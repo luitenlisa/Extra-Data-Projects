@@ -5,7 +5,7 @@
 <br>Visualizations: https://public.tableau.com/app/profile/lisa.luiten/viz/BellabeatCaseStudy_17033556572150/Dashboard1
 <br>
 <br>Furberg, R., Brinton, J., Keating, M., & Ortiz, A. (2016). Crowd-sourced Fitbit datasets 03.12.2016-05.12.2016 [Data set]. Zenodo. https://doi.org/10.5281/zenodo.53894 <br><br>
-
+<br>
 
 <h3>#RWFD Hospital Data</h3>
   <body> This project used the #RWFD (Real world fake data) set of hospital data. All data was fake and there was no actual healthcare or identifiable data used here. This project I analyzed data from a hospital to identify trends in wait times at the ER, referrals, satisfaction, etc. </body>
@@ -13,7 +13,7 @@
 <br><br> #RWFD Real World Fake Data: Hospital ER. Bradbourne, M. (2020). data.world. https://data.world/markbradbourne/rwfd-real-world-fake-data/workspace/file?filename=Hospital+ER.csv
 <br><br>
 
-
+<br>
 <h3>Shopping Analysis</h3>
 <body>I used this dataset from Kaggle to identify online shopping trends for an unidentified retailer. The information was organized and analyzed to identify popular shopping methods, biggest sellers, and key demographic groups of buyers. </body>
 <br>Visualizations:https://public.tableau.com/app/profile/lisa.luiten/viz/ShoppingBehaviorAnalysisv2/CONSUMERdashboard
